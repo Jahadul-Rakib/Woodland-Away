@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+/*==============================*/
+/*=====   Responsive css  =====*/
+/*============================*/
+
+/*-----------------    max-width 1300px  -----------*/
+@media(max-width: 1300px){
+
+}
+
+
+/*-----------------    max-width 1200px of BootStrap 1st Break  -----------*/
+@media(max-width: 1200px){
+	.header-menu ul li a{
+		padding: 14px 52px;
+	}
+}
+
+@media(max-width: 1199px){
+}
+
+/*-----------------    max-width 1024px   -----------*/
+@media(max-width: 1024px){
+
+}
+
+/*-----------------    max-width 992px of BootStrap 2nd Break  -----------*/
+@media(max-width: 992px){
+	.header-menu ul li a {
+	  font-size: 16px;
+	  padding: 13px 30px;
+	}
+	.submit-field p {
+	  font-size: 13px;
+	  margin-bottom: 10px;
+	  margin-right: 0px;
+	  max-width: 100%;
+	  padding-top: 0;
+	  width: 100%;
+	}
+	.submit-field input{
+		max-width: 100%;
+	}
+	.testimonial-left img {
+	  max-width: 118px;
+	  margin-right: 10px;
+	}
+	.testimonial-left p {
+	  max-width: 150px;
+	}
+	.ne-field {
+	  margin-right: 0px;
+	  width: 100%;
+	}
+	.txt-field {
+	  width: 100%;
+	}
+	.fetured-content{
+		margin-top: 0px;
+	}
+
+}
+
+/*-----------------    max-width 767px of BootStrap 3rd Break  -----------*/
+@media(max-width: 768px){
+	.contact-number p {
+	  background-size: 20px;
+	  font-size: 20px;
+	  line-height: 19px;
+	  padding-left: 30px;
+	  padding-bottom: 5px;
+	}
+	.contact-number span {
+	  margin-right: 46px;
+	}
+	.header-inner {
+	  margin-bottom: 15px;
+	  margin-top: 15px;
+	}
+	.header-menu{
+		height: 55px;
+		position: relative;
+		border-radius: 0px;
+	}
+	.header-menu ul{
+		width: 100%;
+		position: absolute;
+		background: #59130e;
+		display: none;
+		top: 55px;
+		right: 0px;
+		z-index: 111;
+		text-align: center;
+		border-top: 1px solid #9f4b45;
+		box-shadow: 0 3px 6px #000;
+	}
+	.header-menu ul li{
+		display: block;
+		width: 100%;
+		border-top: 1px solid #9f4b45;
+	}
+	.header-menu ul li:first-child{
+		border-top:none;
+	}
+	.header-menu ul li a{
+		display: block;
+		width: 100%;
+	}
+	.main-slider img{
+		width: 100%;
+	}
+	.about-content{
+		margin-bottom: 30px;
+	}
+	.slider-content {
+	  margin: 25px 0;
+	  padding-left: 0px;
+	}
+	.testimonial-left img {
+	  max-width: 100%;
+	  margin-right: 10px;
+	  max-height: 200px;
+	}
+	.testimonial-left p {
+	  max-width: 100%;
+	  margin-top: 20px;
+	}
+	.testimonial-left{
+		margin-bottom: 30px;
+	}
+	.footer-wrp,.footer-right{
+		text-align: center;
+	}
+	.footer-wrp{
+		padding: 15px;
+	}
+	.footer-right{
+		margin-right: 0px;
+	}
+	.footer-left{
+		margin-left: 0px;
+	}
+	.footer-left a {
+	  margin-right: 12px;
+	}
+	.footer-right a, 
+	.footer-left a, 
+	.footer-left p {
+	  font-size: 13px;
+	  line-height: 13px;
+	}
+	.contact-header{
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.contact-number,.logo,.contact-header{
+		text-align: center;
+	}
+	.social-link{
+		margin-top: 10px;
+	}
+	.social-link{
+		float: left;
+		width: 30%;
+	}
+	.contact-number{
+		width: 70%;
+		float: right;
+		margin-top: 10px;
+	}
+	.fetured-content{
+		padding-right: 15px;
+		margin-top: 30px;
+	}
+	.about-innet-content h3{
+		margin-top: 20px;
+	}
+	.submit-field input{
+		max-width: 50%;
+	}
+	.contact-address{
+		margin-top: 30px;
+	}
+	.services-content{
+		margin-top: 20px;
+	}
+	.services-content img{
+		max-height: 100%;
+	}
+}
+
+/*-----------------    max-width 639px   -----------*/
+@media(max-width: 639px){
+
+}
+
+/*-----------------    max-width 479px   -----------*/
+@media(max-width: 479px){
+	.contact-number p {
+	  font-size: 16px;
+	  line-height: 17px;
+	  padding-left: 18px;
+	  background-size: 16px;
+	}
+	.contact-number span {
+	  margin-right: 37px;
+	}
+	
+	.latest-protfolio h3 {
+	  font-size: 20px;
+	  margin: 0 0 13px;
+	  padding-bottom: 5px;
+	}
+	.protfolio-slider{
+		padding: 17px;
+	}
+}
+
+/*-----------------    max-width 359px   -----------*/
+@media(max-width: 359px){
+	.slider-content {
+	  margin: 25px 0;
+	  padding-left: 0px;
+	}
+	.slider-content h3 {
+	  font-size: 20px;
+	  margin-bottom: 9px;
+	}
+	.get-more a {
+	  font-size: 16px;
+	}
+	.get-more{
+		padding: 10px;
+	}
+	.about-innet-content ul li h4{
+		line-height: 18px;
+	}
+}
+
+/*-----------------    max-width 320px   -----------*/
+@media(max-width: 320px){
+
+}
